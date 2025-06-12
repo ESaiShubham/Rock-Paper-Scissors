@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.heading {
+    font-size: 4.5vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #3a363c;
+}
+
+.img {
+    display: inline;
+    display:flex;
+    justify-content: center;
+    height:30vmin;
+    margin-top: 15vmin;
+}
+
+.png {
+    display: inline;
+    display:flex;
+    justify-content: center;
+    height:20vmin;
+    gap:8vmin;
+    margin-top: 20vmin;
+}
+
+.score {
+    display: inline;
+    display:flex;
+    justify-content:center;
+    align-items:end;
+    gap:18vmin;
+    font-size: 10vmin;
+    height:200px;
+    padding-right: 60px;
+}
+
+.who {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:7vmin;
+    font-size: 6vmin;
+}
+
+.winner {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 6vmin;
+    margin: 50px 50px;
+    background-color:#ffd6ff;
+    color: rgb(48, 48, 48);
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px black;
+}
+
+.reset {
+     display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 6vmin;
+    margin: 50px 50px;
+    background-color:#bbd0ff;
+    color: rgb(48, 48, 48);
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px black;
+}
