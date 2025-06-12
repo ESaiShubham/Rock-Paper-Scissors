@@ -2,6 +2,7 @@ let RPS = document.querySelectorAll(".img");
 let winbox = document.querySelector(".winner");
 let me = document.querySelector(".my-score");
 let bot = document.querySelector(".bot-score");
+let Reset = document.querySelector(".reset");
 
 let myScore = 0;
 let computerScore = 0;
@@ -64,3 +65,9 @@ const won = (onewin) => {
         bot.innerText = computerScore;
     }
 }
+
+const resetgame = () => {
+    me.innerText = "0";
+    bot.innerText = "0";
+}
+Reset.addEventListener("click", resetgame);
