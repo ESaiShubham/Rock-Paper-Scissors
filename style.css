@@ -1,10 +1,11 @@
 * {
     margin: 0;
+    margin-top: 5px;
     padding: 0;
 }
 
 .heading {
-    font-size: 5vmin;
+    font-size: 4.5vmin;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -16,17 +17,16 @@
     display:flex;
     justify-content: center;
     height:30vmin;
-    gap:10vmin;
-    margin-top: 2vmin;
+    margin-top: 15vmin;
 }
 
 .png {
     display: inline;
     display:flex;
     justify-content: center;
-    height:30vmin;
-    gap:10vmin;
-    margin-top: 2vmin;
+    height:20vmin;
+    gap:8vmin;
+    margin-top: 20vmin;
 }
 
 .score {
@@ -54,8 +54,20 @@
     align-items:center;
     font-size: 6vmin;
     margin: 50px 50px;
-    background-color: rgb(161, 165, 244);
-    color: rgb(255, 255, 255);
+    background-color:#ffd6ff;
+    color: rgb(48, 48, 48);
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px black;
+}
+
+.reset {
+     display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 6vmin;
+    margin: 50px 50px;
+    background-color:#bbd0ff;
+    color: rgb(48, 48, 48);
     font-family: Arial, Helvetica, sans-serif;
     border: solid 2px black;
 }
