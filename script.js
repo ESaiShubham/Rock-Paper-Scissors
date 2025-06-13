@@ -1,5 +1,3 @@
-alert("Click Any Hand");
-
 let RPS = document.querySelectorAll(".img");
 let winbox = document.querySelector(".winner");
 let me = document.querySelector(".my-score");
